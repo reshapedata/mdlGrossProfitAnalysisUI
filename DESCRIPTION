@@ -1,0 +1,34 @@
+Package: mdlGrossProfitAnalysisUI
+Type: Package
+Title: UI Package For DMS mdlGrossProfitAnalysis Module in R
+Version: 1.0.2
+Author: hulilei
+Maintainer: hulilei <hulilei@takewiki.com.cn>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Collate: 
+    'sal_outStock.R'
+    'sal_outStock_mngr.R'
+    'sal_outStock_Adj.R'
+    'sal_returnStock.R'
+    'ca_receive.R'
+    'ca_return.R'
+    'rule_fanLiQty.R'
+    'rule_fanLiAmount.R'
+    'rebate_actual.R'
+    'rebate_actual_month.R'
+    'rebate_actual_year.R'
+    'rebate_detailAmt_actual_month.R'
+    'rebate_detailAmt_actual_year.R'
+    'rebate_detailAmt_actual.R'
+    'rebate_management.R'
+    'commision_actual.R'
+    'commision_management.R'
+    'transportFee_actual.R'
+    'transportFee_management.R'
+    'standardCost_management.R'
+    'grossProfit_management.R'
