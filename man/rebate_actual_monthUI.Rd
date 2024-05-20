@@ -5,7 +5,7 @@
 \title{返利生成生成器界面}
 \usage{
 rebate_actual_monthUI(
-  tabTitle = "返利数量月度汇总表",
+  tabTitle = "返利数量月度汇总表财务口径",
   colTitles = c("操作区域", "操作区域", "显示区域"),
   widthRates = c(6, 6, 12),
   func_left = rebate_actual_monthUI_left,

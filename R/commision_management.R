@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' commision_managementUI()
-commision_managementUI <- function(tabTitle ='佣金金额明细表管理口径',
+commision_managementUI <- function(tabTitle ='佣金明细表管理口径',
                                colTitles =c('操作区域','操作区域','显示区域'),
                                widthRates =c(6,6,12),
                                func_left = commision_managementUI_left,
@@ -42,8 +42,10 @@ commision_managementUI_left <- function() {
 
 
   res <- tagList(
+
     tsui::mdl_text2(id = 'text_commision_management_year',label ='请输入年份' ,value ='2023' ),
     tsui::mdl_text2(id = 'text_commision_management_month',label ='请输入月份' ,value ='11' )
+
 
 
   )
@@ -62,9 +64,15 @@ commision_managementUI_left <- function() {
 commision_managementUI_right <- function() {
   res <- tagList(
 
-    shiny::actionButton(inputId = 'btn_commision_management',label = '查询数据'),
+    shiny::actionButton(inputId = 'btn_commision_management_selectBydata',label = '计算佣金'),
 
-    tsui::mdl_download_button(id = 'dl_commision_management',label = '下载数据')
+    #shiny::actionButton(inputId = 'btn_commision_management_selectBydata',label = '按日期查询'),
+
+    shiny::actionButton(inputId = 'btn_commision_management_select',label = '查询佣金明细表'),
+
+    shiny::actionButton(inputId = 'btn_commision_management_delete',label = '清空佣金明细表'),
+
+    tsui::mdl_download_button(id = 'dl_commision_management',label = '下载佣金明细表')
 
   )
   return(res)

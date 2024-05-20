@@ -1,7 +1,7 @@
 Package: mdlGrossProfitAnalysisUI
 Type: Package
 Title: UI Package For DMS mdlGrossProfitAnalysis Module in R
-Version: 1.0.2
+Version: 1.0.3
 Author: hulilei
 Maintainer: hulilei <hulilei@takewiki.com.cn>
 Description: More about what it does (maybe more than one line)
@@ -15,6 +15,9 @@ Collate:
     'sal_outStock_mngr.R'
     'sal_outStock_Adj.R'
     'sal_returnStock.R'
+    'rebate_exchangerate.R'
+    'rule_commisionAmount.R'
+    'rule_rebateFobamount.R'
     'ca_receive.R'
     'ca_return.R'
     'rule_fanLiQty.R'

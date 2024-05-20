@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' rebate_detailAmt_actualUI()
-rebate_detailAmt_actualUI <- function(tabTitle ='返利金额明细表财务口径',
+rebate_detailAmt_actualUI <- function(tabTitle ='返利金额明细表',
                             colTitles =c('操作区域','操作区域','显示区域'),
                             widthRates =c(6,6,12),
                             func_left = rebate_detailAmt_actualUI_left,

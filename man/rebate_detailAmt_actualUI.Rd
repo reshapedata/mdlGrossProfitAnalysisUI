@@ -5,7 +5,7 @@
 \title{返利生成生成器界面}
 \usage{
 rebate_detailAmt_actualUI(
-  tabTitle = "返利金额明细表财务口径",
+  tabTitle = "返利金额明细表",
   colTitles = c("操作区域", "操作区域", "显示区域"),
   widthRates = c(6, 6, 12),
   func_left = rebate_detailAmt_actualUI_left,

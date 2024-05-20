@@ -5,7 +5,7 @@
 \title{返利生成生成器界面}
 \usage{
 commision_actualUI(
-  tabTitle = "佣金金额明细表财务口径",
+  tabTitle = "佣金明细表财务口径",
   colTitles = c("操作区域", "操作区域", "显示区域"),
   widthRates = c(6, 6, 12),
   func_left = commision_actualUI_left,

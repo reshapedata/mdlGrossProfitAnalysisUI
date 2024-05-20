@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' rebate_actual_yearUI()
-rebate_actual_yearUI <- function(tabTitle ='返利数量年度汇总表',
+rebate_actual_yearUI <- function(tabTitle ='返利数量年度汇总表财务口径',
                                   colTitles =c('操作区域','操作区域','显示区域'),
                                   widthRates =c(6,6,12),
                                   func_left = rebate_actual_yearUI_left,
