@@ -14,11 +14,11 @@
 #' @examples
 #' rebate_detailAmt_actual_monthUI()
 rebate_detailAmt_actual_monthUI <- function(tabTitle ='返利金额月度汇总表',
-                                  colTitles =c('操作区域','操作区域','显示区域'),
-                                  widthRates =c(6,6,12),
-                                  func_left = rebate_detailAmt_actual_monthUI_left,
-                                  func_right =rebate_detailAmt_actual_monthUI_right,
-                                  func_bottom = rebate_detailAmt_actual_monthUI_bottom
+                                            colTitles =c('操作区域','操作区域','显示区域'),
+                                            widthRates =c(6,6,12),
+                                            func_left = rebate_detailAmt_actual_monthUI_left,
+                                            func_right =rebate_detailAmt_actual_monthUI_right,
+                                            func_bottom = rebate_detailAmt_actual_monthUI_bottom
 ) {
 
   #三栏式设置，可以复制

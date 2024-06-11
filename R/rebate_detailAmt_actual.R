@@ -14,11 +14,11 @@
 #' @examples
 #' rebate_detailAmt_actualUI()
 rebate_detailAmt_actualUI <- function(tabTitle ='返利金额明细表',
-                            colTitles =c('操作区域','操作区域','显示区域'),
-                            widthRates =c(6,6,12),
-                            func_left = rebate_detailAmt_actualUI_left,
-                            func_right =rebate_detailAmt_actualUI_right,
-                            func_bottom = rebate_detailAmt_actualUI_bottom
+                                      colTitles =c('操作区域','操作区域','显示区域'),
+                                      widthRates =c(6,6,12),
+                                      func_left = rebate_detailAmt_actualUI_left,
+                                      func_right =rebate_detailAmt_actualUI_right,
+                                      func_bottom = rebate_detailAmt_actualUI_bottom
 ) {
 
   #三栏式设置，可以复制
@@ -66,7 +66,7 @@ rebate_detailAmt_actualUI_right <- function() {
 
     shiny::actionButton(inputId = 'btn_rebate_detailAmt_actual_selectBydata',label = '计算返利金额'),
 
-   # shiny::actionButton(inputId = 'btn_rebate_detailAmt_actual_selectBydata',label = '按日期查询'),
+    # shiny::actionButton(inputId = 'btn_rebate_detailAmt_actual_selectBydata',label = '按日期查询'),
 
     shiny::actionButton(inputId = 'btn_rebate_detailAmt_actual_select',label = '查询返利金额明细表'),
 

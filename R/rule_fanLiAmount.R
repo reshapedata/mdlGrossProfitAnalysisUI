@@ -14,11 +14,11 @@
 #' @examples
 #' rule_fanLiAmountUI()
 rule_fanLiAmountUI <- function(tabTitle ='返利金额规则表',
-                            colTitles =c('操作区域','操作区域','显示区域'),
-                            widthRates =c(6,6,12),
-                            func_left = rule_fanLiAmountUI_left,
-                            func_right =rule_fanLiAmountUI_right,
-                            func_bottom = rule_fanLiAmountUI_bottom
+                               colTitles =c('操作区域','操作区域','显示区域'),
+                               widthRates =c(6,6,12),
+                               func_left = rule_fanLiAmountUI_left,
+                               func_right =rule_fanLiAmountUI_right,
+                               func_bottom = rule_fanLiAmountUI_bottom
 ) {
 
   #三栏式设置，可以复制

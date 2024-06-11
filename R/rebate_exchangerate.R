@@ -14,11 +14,11 @@
 #' @examples
 #' rebate_exchangerateUI()
 rebate_exchangerateUI <- function(tabTitle ='汇率体系数据源',
-                           colTitles =c('操作区域','操作区域','显示区域'),
-                           widthRates =c(6,6,12),
-                           func_left = rebate_exchangerateUI_left,
-                           func_right =rebate_exchangerateUI_right,
-                           func_bottom = rebate_exchangerateUI_bottom
+                                  colTitles =c('操作区域','操作区域','显示区域'),
+                                  widthRates =c(6,6,12),
+                                  func_left = rebate_exchangerateUI_left,
+                                  func_right =rebate_exchangerateUI_right,
+                                  func_bottom = rebate_exchangerateUI_bottom
 ) {
 
   #三栏式设置，可以复制

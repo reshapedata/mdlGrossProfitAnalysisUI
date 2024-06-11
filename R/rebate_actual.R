@@ -14,11 +14,11 @@
 #' @examples
 #' rebate_actualUI()
 rebate_actualUI <- function(tabTitle ='返利数量明细表财务口径',
-                   colTitles =c('操作区域','操作区域','显示区域'),
-                   widthRates =c(6,6,12),
-                   func_left = rebate_actualUI_left,
-                   func_right =rebate_actualUI_right,
-                   func_bottom = rebate_actualUI_bottom
+                            colTitles =c('操作区域','操作区域','显示区域'),
+                            widthRates =c(6,6,12),
+                            func_left = rebate_actualUI_left,
+                            func_right =rebate_actualUI_right,
+                            func_bottom = rebate_actualUI_bottom
 ) {
 
   #三栏式设置，可以复制

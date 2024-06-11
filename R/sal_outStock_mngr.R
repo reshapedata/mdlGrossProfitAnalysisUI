@@ -14,11 +14,11 @@
 #' @examples
 #' sal_outStock_mngrUI()
 sal_outStock_mngrUI <- function(tabTitle ='销售出库管理口径数据源',
-                           colTitles =c('操作区域','操作区域','显示区域'),
-                           widthRates =c(6,6,12),
-                           func_left = sal_outStock_mngrUI_left,
-                           func_right =sal_outStock_mngrUI_right,
-                           func_bottom = sal_outStock_mngrUI_bottom
+                                colTitles =c('操作区域','操作区域','显示区域'),
+                                widthRates =c(6,6,12),
+                                func_left = sal_outStock_mngrUI_left,
+                                func_right =sal_outStock_mngrUI_right,
+                                func_bottom = sal_outStock_mngrUI_bottom
 ) {
 
   #三栏式设置，可以复制

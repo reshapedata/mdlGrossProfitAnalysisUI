@@ -14,11 +14,11 @@
 #' @examples
 #' commision_actualUI()
 commision_actualUI <- function(tabTitle ='佣金明细表财务口径',
-                            colTitles =c('操作区域','操作区域','显示区域'),
-                            widthRates =c(6,6,12),
-                            func_left = commision_actualUI_left,
-                            func_right =commision_actualUI_right,
-                            func_bottom = commision_actualUI_bottom
+                               colTitles =c('操作区域','操作区域','显示区域'),
+                               widthRates =c(6,6,12),
+                               func_left = commision_actualUI_left,
+                               func_right =commision_actualUI_right,
+                               func_bottom = commision_actualUI_bottom
 ) {
 
   #三栏式设置，可以复制
