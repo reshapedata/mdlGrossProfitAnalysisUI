@@ -14,11 +14,11 @@
 #' @examples
 #' sal_outStockUI()
 sal_outStockUI <- function(tabTitle ='销售出库数据源',
-                               colTitles =c('操作区域','操作区域','显示区域'),
-                               widthRates =c(6,6,12),
-                               func_left = sal_outStockUI_left,
-                               func_right =sal_outStockUI_right,
-                               func_bottom = sal_outStockUI_bottom
+                           colTitles =c('操作区域','操作区域','显示区域'),
+                           widthRates =c(6,6,12),
+                           func_left = sal_outStockUI_left,
+                           func_right =sal_outStockUI_right,
+                           func_bottom = sal_outStockUI_bottom
 ) {
 
   #三栏式设置，可以复制

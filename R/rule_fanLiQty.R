@@ -14,11 +14,11 @@
 #' @examples
 #' rule_fanLiQtyUI()
 rule_fanLiQtyUI <- function(tabTitle ='返利数量规则表',
-                               colTitles =c('操作区域','操作区域','显示区域'),
-                               widthRates =c(6,6,12),
-                               func_left = rule_fanLiQtyUI_left,
-                               func_right =rule_fanLiQtyUI_right,
-                               func_bottom = rule_fanLiQtyUI_bottom
+                            colTitles =c('操作区域','操作区域','显示区域'),
+                            widthRates =c(6,6,12),
+                            func_left = rule_fanLiQtyUI_left,
+                            func_right =rule_fanLiQtyUI_right,
+                            func_bottom = rule_fanLiQtyUI_bottom
 ) {
 
   #三栏式设置，可以复制
@@ -47,6 +47,8 @@ rule_fanLiQtyUI_left <- function() {
 
     tsui::mdl_text2(id = 'text_rule_fanLiQty_FIndexType',label ='指标类型' ,value ='所有产品' ),
 
+    tsui::mdl_text2(id = 'text_rule_fanLiQty_FIndexCustomerName',label ='计量客户' ,value ='深圳深汕特别合作区昌茂粘胶新材料有限公司' ),
+
     tsui::mdl_text2(id = 'text_rule_fanLiQty_FStartRealQty',label ='实发数量(大于等于)' ,value ='0' ),
 
     tsui::mdl_text2(id = 'text_rule_fanLiQty_FEndRealQty',label ='实发数量(到)' ,value ='99999' ),
@@ -54,6 +56,8 @@ rule_fanLiQtyUI_left <- function() {
     tsui::mdl_text2(id = 'text_rule_fanLiQty_FUnit',label ='计量单位' ,value ='T' ),
 
     tsui::mdl_text2(id = 'text_rule_fanLiQty_FRebateProduct',label ='返利产品' ,value ='所有产品' ),
+
+    tsui::mdl_text2(id = 'text_rule_fanLiQty_FRebateType',label ='返利类型' ,value ='所有期间' ),
 
     tsui::mdl_text2(id = 'text_rule_fanLiQty_FRebateRate',label ='返利%' ,value ='1' ),
     tsui::mdl_date(id='text_rule_fanLiQty_FEffectDate',label = '生效日期'),

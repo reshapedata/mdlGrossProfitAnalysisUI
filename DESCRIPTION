@@ -1,7 +1,7 @@
 Package: mdlGrossProfitAnalysisUI
 Type: Package
 Title: UI Package For DMS mdlGrossProfitAnalysis Module in R
-Version: 1.0.3
+Version: 1.0.4
 Author: hulilei
 Maintainer: hulilei <hulilei@takewiki.com.cn>
 Description: More about what it does (maybe more than one line)
@@ -22,15 +22,18 @@ Collate:
     'ca_return.R'
     'rule_fanLiQty.R'
     'rule_fanLiAmount.R'
+    'rule_payment_month.R'
     'rebate_actual.R'
     'rebate_actual_month.R'
-    'rebate_actual_year.R'
+    'rebate_management_month.R'
     'rebate_detailAmt_actual_month.R'
     'rebate_detailAmt_actual_year.R'
     'rebate_detailAmt_actual.R'
     'rebate_management.R'
     'commision_actual.R'
+    'commision_actual_month.R'
     'commision_management.R'
+    'commision_management_month.R'
     'transportFee_actual.R'
     'transportFee_management.R'
     'standardCost_management.R'

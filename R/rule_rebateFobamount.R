@@ -43,6 +43,7 @@ rule_rebateFobamountUI_left <- function() {
 
   res <- tagList(
     tsui::mdl_text2(id = 'text_rule_rebateFobamount_Fbillno',label ='单据编号' ,value ='' ),
+    tsui::mdl_text2(id = 'text_rule_rebateFobamount_FMaterialNumber',label ='物料编码' ,value ='' ),
 
     tsui::mdl_text2(id = 'text_rule_rebateFobamount_FCountStandard',label ='计提依据' ,value ='' ),
 
@@ -64,6 +65,8 @@ rule_rebateFobamountUI_right <- function() {
   res <- tagList(
 
     tsui::mdl_text2(id = 'text_rule_rebateFobamount_FBillNo_delete',label ='删除单据编号' ,value ='' ),
+
+    tsui::mdl_text2(id = 'text_rule_rebateFobamount_FMaterialNumber_delete',label ='删除物料编码' ,value ='' ),
 
     shiny::actionButton(inputId = 'btn_rule_rebateFobamount_view',label = '查询FOB金额表'),
     shiny::actionButton(inputId='btn_rule_rebateFobamount_add',label = '添加计提依据'),
