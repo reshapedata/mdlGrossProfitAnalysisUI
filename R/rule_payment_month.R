@@ -43,6 +43,8 @@ rule_payment_monthUI_left <- function() {
 
   res <- tagList(
     tsui::mdl_text2(id = 'text_rule_payment_month_FContractNumber',label ='合同协议号' ,value ='000000' ),
+
+    tsui::mdl_text2(id = 'text_rule_payment_month_FSaleOrgName',label ='组织名称' ,value ='组织名称' ),
     tsui::mdl_text2(id = 'text_rule_payment_month_FCustomerName',label ='客户名称' ,value ='客户名称' ),
 
     tsui::mdl_text2(id = 'text_rule_payment_month_Fyear',label ='年份' ,value ='2023' ),
