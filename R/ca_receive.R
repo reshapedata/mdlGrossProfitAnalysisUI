@@ -78,6 +78,8 @@ ca_receiveUI_right <- function() {
 }
 
 
+#收款单显示
+
 #' 生成区域
 #'
 #' @return 返回值
