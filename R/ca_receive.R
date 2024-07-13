@@ -78,6 +78,8 @@ ca_receiveUI_right <- function() {
 }
 
 
+#收款单显示
+
 #' 生成区域
 #'
 #' @return 返回值
@@ -88,8 +90,10 @@ ca_receiveUI_right <- function() {
 ca_receiveUI_bottom <- function() {
   res <- tagList(
     tsui::uiScrollX(tsui::mdl_dataTable(id = 'ca_receive_resultView',label ='结果显示' ))
-#
+
   )
   return(res)
 
 }
+##########
+######
