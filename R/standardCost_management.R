@@ -64,7 +64,8 @@ standardCost_managementUI_right <- function() {
 
     shiny::actionButton(inputId = 'btn_standardCost_management',label = '查询数据'),
 
-    tsui::mdl_download_button(id = 'dl_standardCost_management',label = '下载数据')
+    tsui::mdl_download_button(id = 'dl_standardCost_management',label = '下载数据'),
+    shiny::actionButton(inputId = 'dl_standardCost_management_update',label = '更新行业信息')
 
   )
   return(res)
