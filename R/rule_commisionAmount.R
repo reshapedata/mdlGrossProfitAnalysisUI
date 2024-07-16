@@ -15,7 +15,7 @@
 #' rule_commisionAmountUI()
 rule_commisionAmountUI <- function(tabTitle ='佣金规则表',
                                    colTitles =c('操作区域','操作区域','显示区域'),
-                                   widthRates =c(6,6,12),
+                                   widthRates =c(7,5,12),
                                    func_left = rule_commisionAmountUI_left,
                                    func_right =rule_commisionAmountUI_right,
                                    func_bottom = rule_commisionAmountUI_bottom
@@ -42,29 +42,41 @@ rule_commisionAmountUI_left <- function() {
 
 
   res <- tagList(
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_Fbillno',label ='编号' ,value ='R0000' ),
 
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_FSaleOrgName',label ='组织' ,value ='上海嘉好胶粘制品有限公司' ),
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_FSaleMan',label ='业务员' ,value ='' ),
+    tsui::layout_2C(x =tsui::mdl_text2(id = 'text_rule_commisionAmount_Fbillno',label ='编号' ,value ='R0000' ),
 
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_Fcountry',label ='国家' ,value ='' ),
-    tsui::mdl_date(id='text_rule_commisionAmount_FStartDate',label = '开始日期'),
-    tsui::mdl_date(id='text_rule_commisionAmount_FEndDate',label = '结束日期'),
+                    y=tsui::mdl_text2(id = 'text_rule_commisionAmount_FSaleOrgName',label ='组织' ,value ='上海嘉好胶粘制品有限公司' )
+    ),
+    tsui::layout_2C(x =tsui::mdl_text2(id = 'text_rule_commisionAmount_FSaleMan',label ='业务员' ,value ='' ),
 
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_FCustomerName',label ='客户' ,value ='' ),
+                    y=tsui::mdl_text2(id = 'text_rule_commisionAmount_Fcountry',label ='国家' ,value ='' )
+    ),
+    tsui::layout_2C(x =tsui::mdl_date(id='text_rule_commisionAmount_FStartDate',label = '开始日期'),
 
+                    y=tsui::mdl_date(id='text_rule_commisionAmount_FEndDate',label = '结束日期')
+    ),
+        tsui::layout_2C(x =tsui::mdl_text2(id = 'text_rule_commisionAmount_FCustomerName',label ='客户' ,value ='' ),
+
+                    y=tsui::mdl_text2(id = 'text_rule_commisionAmount_FCustMtrlName',label ='客户物料名称' ,value ='全部' )
+
+
+    ),
     tsui::mdl_text2(id = 'text_rule_commisionAmount_FContidtionName',label ='佣金条款' ,value ='' ),
 
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_FCustMtrlName',label ='客户物料名称' ,value ='全部' ),
 
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_FCommisionBy',label ='计提依据' ,value ='实发数量' ),
+    tsui::layout_2C(x =tsui::mdl_text2(id = 'text_rule_commisionAmount_FCommisionBy',label ='计提依据' ,value ='实发数量' ),
 
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_FCommisionStandard',label ='计提标准（量/金额）' ,value ='' ),
+                    y=tsui::mdl_text2(id = 'text_rule_commisionAmount_FCommisionStandard',label ='计提标准（量/金额）' ,value ='' )
+    ),
+
+    tsui::layout_2C(x = tsui::mdl_text2(id = 'text_rule_commisionAmount_Fcurrency',label ='币种' ,value ='美元' ),
+
+                    y=tsui::mdl_text2(id = 'text_rule_commisionAmount_FFiscalFee',label ='打款手续费' ,value ='0' )
+    )
 
 
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_Fcurrency',label ='币种' ,value ='美元' ),
 
-    tsui::mdl_text2(id = 'text_rule_commisionAmount_FFiscalFee',label ='打款手续费' ,value ='0' )
+
 
 
 

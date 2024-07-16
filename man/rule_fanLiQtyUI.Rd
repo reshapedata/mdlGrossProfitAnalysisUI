@@ -7,7 +7,7 @@
 rule_fanLiQtyUI(
   tabTitle = "返利数量规则表",
   colTitles = c("操作区域", "操作区域", "显示区域"),
-  widthRates = c(6, 6, 12),
+  widthRates = c(7, 5, 12),
   func_left = rule_fanLiQtyUI_left,
   func_right = rule_fanLiQtyUI_right,
   func_bottom = rule_fanLiQtyUI_bottom
