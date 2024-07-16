@@ -7,7 +7,7 @@
 rule_commisionAmountUI(
   tabTitle = "佣金规则表",
   colTitles = c("操作区域", "操作区域", "显示区域"),
-  widthRates = c(6, 6, 12),
+  widthRates = c(7, 5, 12),
   func_left = rule_commisionAmountUI_left,
   func_right = rule_commisionAmountUI_right,
   func_bottom = rule_commisionAmountUI_bottom
